@@ -6,7 +6,7 @@
   },
   "devDependencies": {
     "wrangler": "3.112.0",
-    "@cloudflare/workers-types": "4.20250214.0"
+    "@cloudflare/workers-types": "4.20250303.0"
   },
   "scripts": {
     "deploy": "wrangler deploy"
