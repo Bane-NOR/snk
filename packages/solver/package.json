@@ -2,6 +2,6 @@
   "name": "@snk/solver",
   "version": "1.0.0",
   "devDependencies": {
-    "park-miller": "1.1.0"
+    "park-miller": "2.0.0"
   }
 }
