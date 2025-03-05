@@ -79,7 +79,7 @@ jobs:
             echo "prerelease=true" >> $GITHUB_OUTPUT
           fi
 
-      - uses: ncipollo/release-action@v1.15.0
+      - uses: ncipollo/release-action@v1.16.0
         with:
           tag: v${{ github.event.inputs.version }}
           body: ${{ github.event.inputs.description }}
