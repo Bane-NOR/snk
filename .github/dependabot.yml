@@ -1,0 +1,47 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: ".github/workflows"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "docker"
+    directory: "."
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "./packages/github-user-contribution"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "./packages/draw"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "./packages/solver"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "./packages/gif-creator"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "./packages/svg-creator"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "./packages/demo"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "./packages/types"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "./packages/github-user-contribution-service"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "./packages/action"
+    schedule:
+      interval: "weekly"
+
