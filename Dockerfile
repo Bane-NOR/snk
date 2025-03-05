@@ -1,4 +1,4 @@
-FROM oven/bun:1.2.2-slim as builder
+FROM oven/bun:1.2.4-slim as builder
 
 WORKDIR /app
 
@@ -16,7 +16,7 @@ RUN bun run build:action
 
 
 
-FROM oven/bun:1.2.2-slim
+FROM oven/bun:1.2.4-slim
 
 WORKDIR /action-release
 
